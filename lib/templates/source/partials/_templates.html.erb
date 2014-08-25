@@ -1,0 +1,15 @@
+<script type="text/x-handlebars">
+  <h2>Welcome to Ember Sketch</h2>
+
+  {{outlet}}
+</script>
+
+<script type="text/x-handlebars" data-template-name="index">
+  <ul>
+  {{#each item in model}}
+    <li>
+      {{item.title}}
+  </li>
+  {{/each}}
+  </ul>
+</script>

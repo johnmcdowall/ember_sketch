@@ -1,0 +1,39 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v1.3.0.js"></script>
+<script src="http://builds.emberjs.com/release/ember.js"></script>
+<script src="http://builds.emberjs.com/canary/ember-data.js"></script>
+
+<script type='text/javascript'>
+
+App = Ember.Application.create({
+  rootElement: '.application_container'
+});
+
+App.ApplicationAdapter = DS.FixtureAdapter.extend();
+
+App.Item = DS.Model.extend({
+  title: DS.attr('string')
+});
+
+App.Item.FIXTURES = [
+  {
+    id: 1,
+    "title": "cat",
+  },
+  {
+    id: 2,
+    "title": "dog"
+  }
+];
+
+App.Router.map(function() {
+  // put your routes here
+});
+
+App.IndexRoute = Ember.Route.extend({
+  model: function() {
+    return this.store.find('item');
+  }
+});
+
+</script>

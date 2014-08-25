@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'embersketch'
+
+EmberSketch::EmberSketch.start
