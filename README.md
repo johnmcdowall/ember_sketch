@@ -1,12 +1,12 @@
 # Embersketch
 
-Ember Sketch is a minimalist project thumbnail generator. It's as simple to use as JSBin, but with all the benefits of local storage and versioning. 
+Ember Sketch is a minimalist project thumbnail generator. It's as simple to use as JSBin, but with all the benefits of local storage and versioning.
 
-You'd use this to quickly test out an idea, develop a component and so on. Basically anything that doesn't warrant creating a full blown ```ember-cli``` project or the like. 
+You'd use this to quickly test out an idea, develop a component and so on. Basically anything that doesn't warrant creating a full blown ```ember-cli``` project or the like.
 
-Ember Sketch will create a [Middleman](http://middlemanapp.com) based website for you, that includes a very simple default structure (including SASS support with Compass) and a super simple starter Ember app. 
+Ember Sketch will create a [Middleman](http://middlemanapp.com) based website for you, that includes a very simple default structure (including SASS support with Compass) and a super simple starter Ember app.
 
-This probably could be a generator of some sorts built into ```ember-cli```, and maybe that's where it will end up in the future. 
+This probably could be a generator of some sorts built into ```ember-cli```, and maybe that's where it will end up in the future.
 
 ## Installation
 
@@ -19,6 +19,25 @@ Install it yourself as:
 Ember Sketch only understands one command: ```new```. To generate a new Ember sketch, say:
 
     $ embersketch new <project_name>
+
+## Layout
+
+Everything you need is in the ```source``` sub-directory. All of the relevant Javascript is in the ```partials/_javascripts.html.erb``` file. Go wild!
+
+    ├── images
+    ├── index.html.erb
+    ├── layouts
+    │   └── layout.erb
+    ├── partials
+    │   ├── _head.html.erb
+    │   ├── _javascripts.html.erb
+    │   └── _templates.html.erb
+    └── stylesheets
+        ├── _fonts.scss
+        ├── _globals.scss
+        ├── _vars.scss
+        ├── main.scss
+        └── modules
 
 ## Contributing
 
