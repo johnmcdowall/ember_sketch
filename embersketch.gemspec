@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["john@mcdowall.info"]
   spec.summary       = %q{A tool for generating quick self hosting Ember thumbnail sketches using Middleman.}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/emberzone/ember_sketch"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
