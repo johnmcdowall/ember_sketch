@@ -10,8 +10,10 @@ module EmberSketch
       create_directory_structure(project_name)
     end
 
-    def source_paths
-      [File.join(File.expand_path(File.dirname(__FILE__)), ".")]
+    no_commands do
+      def source_paths
+        [File.join(File.expand_path(File.dirname(__FILE__)), ".")]
+      end
     end
 
     private
