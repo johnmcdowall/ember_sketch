@@ -20,9 +20,7 @@ Ember Sketch only understands one command: ```new```. To generate a new Ember sk
 
     $ embersketch new <project_name>
 
-Here's a 5m tutorial on how to use Embersketch:
-
-<iframe style='height: 600px; width:100%;' src="//www.youtube.com/embed/pHdcXM0R3AA" frameborder="0" allowfullscreen></iframe>
+Here's a 5m tutorial [http://www.youtube.com/embed/pHdcXM0R3AA](https://www.youtube.com/watch?v=pHdcXM0R3AA)
 
 ## Layout
 
