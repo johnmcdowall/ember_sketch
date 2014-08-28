@@ -20,6 +20,10 @@ Ember Sketch only understands one command: ```new```. To generate a new Ember sk
 
     $ embersketch new <project_name>
 
+Here's a 5m tutorial on how to use Embersketch:
+
+<iframe style='height: 600px; width:100%;' src="//www.youtube.com/embed/pHdcXM0R3AA" frameborder="0" allowfullscreen></iframe>
+
 ## Layout
 
 Everything you need is in the ```source``` sub-directory. All of the relevant Javascript is in the ```partials/_javascripts.html.erb``` file. Go wild!
@@ -41,7 +45,7 @@ Everything you need is in the ```source``` sub-directory. All of the relevant Ja
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/embersketch/fork )
+1. Fork it ( https://github.com/emberzone/embersketch/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
